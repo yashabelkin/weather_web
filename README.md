@@ -27,6 +27,7 @@ The Weather Application is a web-based project developed using React.js and API 
 1. Start the development server: `npm start`
 2. Open your browser and visit `http://localhost:3000` to access the application.
 
+![image](https://github.com/yashabelkin/weather_web/assets/100130494/1aedd7f3-487b-43b2-9d6d-147804d982da)
 
 
 
