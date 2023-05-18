@@ -1,0 +1,10 @@
+.navStyle {
+    background-color: rgb(95, 89, 89);
+    height: 60px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.navSpan {
+    color: antiquewhite;
+}
