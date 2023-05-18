@@ -19,8 +19,8 @@ The Weather Application is a web-based project developed using React.js and API 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/weather-application.git`
-2. Navigate to the project directory: `cd weather-application`
+1. Clone the repository: `git clone https://github.com/yashabelkin/weather_web.git`
+2. Navigate to the project directory: `cd weather-app`
 3. Install the dependencies: `npm install`
 
 ## Usage
