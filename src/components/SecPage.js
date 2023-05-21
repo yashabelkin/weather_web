@@ -5,7 +5,9 @@ const SecPage = ({data}) => {
     <div className='container'>
         <div className='main'>
             
-            <p className='city'></p>
+            <p className='city'>
+                tel aviv
+            </p>
             <div className='desc'>
             
             <p className='temperature'></p>

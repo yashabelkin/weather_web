@@ -31,3 +31,20 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px; /* Adjust the max-width for smaller screens */
+  }
+  .serachWrap {
+    width: 400px; /* Adjust the width of the searchWrap for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 320px; /* Further adjust the max-width for smaller screens */
+  }
+  .serachWrap {
+    width: 280px; /* Further adjust the width of the searchWrap for smaller screens */
+  }
+}

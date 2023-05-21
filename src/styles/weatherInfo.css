@@ -59,3 +59,33 @@
     background-color: white;
 
 }
+
+
+@media (max-width: 768px) {
+    .infoBox {
+      flex-direction: column; 
+      height: auto; 
+    }
+    
+    .humidity {
+      width: 100%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .headerInfo {
+      font-size: 16px; 
+    }
+    
+    .infoBox {
+      padding: 0.5rem; 
+    }
+    
+    .sec {
+      font-size: 18px; 
+    }
+    
+    .third {
+      font-size: 15px; 
+    }
+  }

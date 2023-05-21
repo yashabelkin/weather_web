@@ -70,3 +70,22 @@
     font-weight: 400;
     color: #8d8989;
 }
+
+
+@media (max-width: 768px) {
+  .main {
+    width: 300px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 240px; 
+  }
+  .temperature {
+    font-size: 50px; 
+  }
+  .weather-icon {
+    width: 80px; 
+  }
+}
