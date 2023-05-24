@@ -6,7 +6,7 @@ import ForcastBox from "./ForcastBox";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 
-function FirstPage() {
+const FirstPage = () => {
 
   const [currentWeather, setCurrentWeather] = useState(null)
   const [forecast, setForecast] = useState(null)
