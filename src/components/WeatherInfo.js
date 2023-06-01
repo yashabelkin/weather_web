@@ -8,7 +8,7 @@ const WeatherInfo = ({data , inf}) => {
     const sunset  = new Date(data.sys.sunset * 1000)  
     
     const newar = inf.split(",")
-    console.log(data)
+    
     
     
 

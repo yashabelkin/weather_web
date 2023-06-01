@@ -15,7 +15,7 @@ const ForcastBox = ({data}) => {
   return (
    
    <div className='week-forcast'>  
-   {console.log(data)}
+   
       {data.list.splice(0, 7).map((item, i) => (
         <div key={i} className='box'>
           <div className='icon'>

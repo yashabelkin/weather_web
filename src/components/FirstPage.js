@@ -41,15 +41,20 @@ const FirstPage = () => {
 
     const currentWeatherFetch = fetch(`${CURRENT_WEATHER_API}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`);
     const forecastFetch = fetch(`${CURRENT_WEATHER_API}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`);
-    
+      const newas = fetch("https://api.open-meteo.com/v1/forecast?latitude=32.08&longitude=34.78&hourly=temperature_2m");
 
-    Promise.all([currentWeatherFetch, forecastFetch])
+
+    Promise.all([currentWeatherFetch, forecastFetch, newas])
       .then(async (response) => {
         const weatherRespone = await response[0].json();
         const forecastRespone = await response[1].json();
+        const newass = await response[2].json();
+
         setCurrentWeather({city: searchData.label,  ...weatherRespone});
         setForecast({city: searchData.label, ...forecastRespone});
         setInf(inf)
+                console.log(newass)
+
         
       })
       .catch((err)=> console.log(err))
@@ -59,10 +64,6 @@ const FirstPage = () => {
   }
   return (
     <>
-    
-
-
-
     
     <div className="container">
       <div className="serachWrap">

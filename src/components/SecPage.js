@@ -9,8 +9,11 @@ const SecPage = ({data}) => {
                 tel aviv
             </p>
             <div className='desc'>
+              {data.desc}
             
-            <p className='temperature'></p>
+            <p className='temperature'>
+            {data.temp}
+            </p>
             </div>
             <p className='weather-description'></p>
             <p className='feels-like'></p>

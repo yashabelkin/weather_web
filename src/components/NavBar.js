@@ -21,9 +21,6 @@ const NavBar = () => {
 
           </Nav>
 
-
-         
-
           <Nav>
             <Nav.Link as={Link} to={"/sec"} ><span className='navSpan'>Current Weather</span></Nav.Link>
             <Nav.Link as={Link} to={"/"} ><span className='navSpan'> Forecast </span></Nav.Link>
